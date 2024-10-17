@@ -3,7 +3,6 @@ package org.singleton;
 /**
  * Singleton "preguiçoso".
  *
- * @author falvojr
  */
 public class SingletonLazy {
 

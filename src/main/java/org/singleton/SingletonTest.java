@@ -8,5 +8,13 @@ public class SingletonTest {
         SingletonLazy singletonLazy = SingletonLazy.getInstance();
         System.out.println(singletonLazy);
         System.out.println(SingletonLazy.getInstance());
+
+        //Singleton Eager
+        SingletonEager eager = SingletonEager.getInstance();
+        System.out.println(eager);
+        System.out.println(SingletonEager.getInstance());
+
+
+
     }
 }
