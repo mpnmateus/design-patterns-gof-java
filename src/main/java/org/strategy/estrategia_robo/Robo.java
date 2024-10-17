@@ -8,6 +8,8 @@ public class Robo {
     }
 
     public void mover(){
+        if(comportamento == null)
+            throw new IllegalStateException("Comportamento não definido.");
         comportamento.mover();
     }
 }
