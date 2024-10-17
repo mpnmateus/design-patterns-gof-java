@@ -21,6 +21,4 @@ public class StrategyRoboTest {
         robo.setComportamento(comportamentoAgressivo);
         robo.mover();
     }
-
-
 }
